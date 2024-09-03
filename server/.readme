@@ -1,0 +1,19 @@
+<!---
+  Project basic configuration
+-->
+
+# Install npm
+npm install
+
+# For migrate database
+npm run migrate
+
+# For generate migration if you want to generate by command
+npx sequelize-cli migration:generate -- --name migration_name
+
+# For generate seed if you want to generate by command
+npx sequelize-cli seed:generate --name demo-user
+
+# Running Seeds
+npx sequelize-cli db:seed:all 
+

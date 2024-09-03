@@ -1,0 +1,38 @@
+.question-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.question {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.option input[type="radio"] {
+    margin-right: 10px;
+}
+
+.option span {
+    cursor: pointer;
+}
+
+.option:hover span {
+    color: #007BFF;
+}
